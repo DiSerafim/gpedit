@@ -1,5 +1,6 @@
 # gpedit
 Gpedit - salvar como .bat
+
 @echo off
 pushd "%~dp0"
 dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >List.txt
